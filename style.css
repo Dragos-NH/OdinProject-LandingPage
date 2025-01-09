@@ -147,3 +147,47 @@ body{
     font-size: 22px;
     font-weight: bold;
 }
+
+/* ********* Call to action ********* */
+
+.call-to-action{
+    background-color: var(--header-logo-txt);
+    margin: 0;
+    padding: 30px 300px;
+}
+
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--btn-color);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.cta-txt-container{
+    margin: 30px;
+}
+
+.cta-header{
+    margin: 0;
+}
+
+.cta-btn{
+    margin: 50px;
+    padding: 5px 15px;
+    background-color: var(--btn-color);
+    color: var(--header-logo-txt);
+    border: 2px solid var(--header-logo-txt);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* ********* Footer ********* */
+
+.footer-txt{
+    text-align: center;
+    margin: 50px;
+}
