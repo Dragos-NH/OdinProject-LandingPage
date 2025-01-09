@@ -107,6 +107,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .img-container{
@@ -163,6 +164,7 @@ body{
     background-color: var(--btn-color);
     border-radius: 10px;
     margin: 20px;
+    padding: 20px 0;
 }
 
 .cta-txt-container{
