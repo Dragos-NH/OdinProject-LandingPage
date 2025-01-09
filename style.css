@@ -1,0 +1,149 @@
+:root{
+    --dark-bk-color: #1f2937; /*hero and footer*/
+    --hero-main-text: #f9faf8;
+    --hero-secodary-txt: #e5e7eb;
+    --header-logo-txt: #f9faf8;
+    --btn-color: #3882f6;
+    --info-header: #1f2937;
+    --quote-bk-color: #e5e7eb;
+    --quote-txt: #1d2937;
+}
+
+body{
+    font-family: "Roboto", serif;
+    background-color: var(--dark-bk-color);
+    color: var(--hero-main-text);
+}
+
+/* ********* Menu bar ********* */
+
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 100px;
+}
+
+.header-logo{
+    color: var(--header-logo-txt);
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.li-item>a {
+    color: var(--hero-secodary-txt);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.li-item>a:hover{
+    text-decoration: underline;
+}
+
+/* ********* Hero ********* */
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 50px 0 100px 0;
+}
+
+.left-elements{
+    margin: 20px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--hero-main-text);
+}
+
+.hero-txt{
+    font-size: 18px;
+    color: var(--hero-secodary-txt);
+    max-width: 600px;
+}
+
+.hero-btn{
+    background-color: var(--btn-color);
+    color: var(--hero-main-text);
+    border: none;
+    padding: 7px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.hero-img{
+    width: 400px;
+}
+
+/* ********* Info Section ********* */
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--header-logo-txt);
+    color: var(--info-header);
+}
+
+.info-title{
+    text-align: center;
+    color: var(--info-header);
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.images-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container{
+    max-width: 180px;
+    text-align: center;
+    margin: 50px;
+}
+
+.info-text{
+    color: var(--quote-txt);
+}
+
+.info-image{
+    border: 5px solid var(--btn-color);
+    border-radius: 10px;
+    width: 180px;
+}
+
+/* ********* Quote area ********* */
+
+.quote-area{
+    padding: 100px 350px;
+    background-color: var(--quote-bk-color);
+    color: var(--quote-txt);
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.quote-autor{
+    margin: 0;
+    text-align: end;
+    position: relative;
+    right: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
